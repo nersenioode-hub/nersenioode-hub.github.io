@@ -1,42 +1,222 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Nersenio Ode Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nersenio Ode | Accountant Portfolio</title>
+
 <style>
-body{
-font-family:Arial;
-text-align:center;
-padding:50px;
-background:#f4f4f4;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
-.card{
-background:white;
-padding:30px;
+
+body{
+font-family:Arial, sans-serif;
+background:#0f0f0f;
+color:white;
+line-height:1.6;
+}
+
+header{
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(135deg,#111,#222);
+}
+
+header img{
+width:170px;
+height:170px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid white;
+margin-bottom:20px;
+}
+
+header h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+header h2{
+font-size:20px;
+color:#cfcfcf;
+margin-bottom:20px;
+}
+
+header p{
 max-width:700px;
 margin:auto;
-border-radius:12px;
-box-shadow:0 0 10px rgba(0,0,0,.1);
+color:#aaa;
 }
-h1{color:#222;}
-p{color:#555;}
-button{
-padding:12px 20px;
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 28px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section-title{
+font-size:32px;
+margin-bottom:30px;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1a1a1a;
+padding:25px;
+border-radius:14px;
+box-shadow:0 0 10px rgba(255,255,255,.05);
+}
+
+.card h3{
+margin-bottom:12px;
+}
+
+.skills span{
+display:inline-block;
+padding:10px 14px;
 background:#222;
-color:white;
-border:none;
+margin:5px;
 border-radius:8px;
 }
+
+footer{
+text-align:center;
+padding:30px;
+color:#777;
+font-size:14px;
+border-top:1px solid #222;
+}
+
+a{
+color:white;
+}
+
 </style>
 </head>
+
 <body>
 
-<div class="card">
+<header>
+
+<img src="profile.jpg" alt="Profile Photo">
+
 <h1>Nersenio Ode</h1>
+
 <h2>Accountant | Xero Specialist | Automation Expert</h2>
-<p>I help businesses manage bookkeeping, payroll, and financial reporting efficiently.</p>
-<p>Email: your@email.com</p>
-<button>Hire Me</button>
+
+<p>
+Helping businesses streamline bookkeeping, payroll, reconciliation, and reporting through modern accounting systems.
+</p>
+
+<a href="mailto:your@email.com" class="btn">Hire Me</a>
+
+</header>
+
+<section>
+
+<h2 class="section-title">My Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Bookkeeping</h3>
+<p>Daily transaction recording, expense tracking, account maintenance.</p>
 </div>
+
+<div class="card">
+<h3>Payroll</h3>
+<p>Employee salary processing, deductions, payroll setup using Xero.</p>
+</div>
+
+<div class="card">
+<h3>Financial Reports</h3>
+<p>P&L, Balance Sheet, Cash Flow, management reports.</p>
+</div>
+
+<div class="card">
+<h3>Automation</h3>
+<p>Excel templates, workflow systems, faster accounting processes.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills" style="text-align:center;">
+<span>Xero</span>
+<span>QuickBooks</span>
+<span>Excel</span>
+<span>Payroll</span>
+<span>Reconciliation</span>
+<span>Financial Reporting</span>
+<span>Automation</span>
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Why Hire Me</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Reliable</h3>
+<p>Accurate and deadline-driven accounting support.</p>
+</div>
+
+<div class="card">
+<h3>Modern</h3>
+<p>Uses cloud accounting tools and smart workflows.</p>
+</div>
+
+<div class="card">
+<h3>Professional</h3>
+<p>Clear communication and quality results.</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="text-align:center;">
+
+<h2 class="section-title">Contact Me</h2>
+
+<p>Email: your@email.com</p>
+<p>LinkedIn: your profile link</p>
+
+</section>
+
+<footer>
+
+© 2026 Nersenio Ode. All Rights Reserved.
+
+</footer>
 
 </body>
 </html>
